@@ -1,0 +1,13 @@
+git config --global user.name "AdwinHR"
+git config --global user.email "adwinhr@gmail.com"
+git config --list
+git init
+git status
+git add -A
+git status
+git commit -m "a"
+git log
+git remote add origin https://github.com/AdwinHR/Mobile-Application-Development.git
+git remote -v
+git pull --rebase origin master
+git push -u origin master
